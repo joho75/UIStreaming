@@ -1,0 +1,49 @@
+2021-09-28T11:29:46.212Z - info:   [03212] *** FOLDER: c:\TFS\FPAP\POC\UIStreaming\UIStreaming ***
+2021-09-28T11:29:46.212Z - info:   [03212] AzureReposVSCode/1.2007.15 (VSCode 1.60.2; Windows_NT 10.0.19043; Node 14.16.0)
+2021-09-28T11:29:46.212Z - debug:  [03212] Looking for an External Context at c:\TFS\FPAP\POC\UIStreaming\UIStreaming
+2021-09-28T11:29:46.213Z - debug:  [03212] No External Context at c:\TFS\FPAP\POC\UIStreaming\UIStreaming
+2021-09-28T11:29:46.217Z - debug:  [03212] Looking for TFVC repository at c:\TFS\FPAP\POC\UIStreaming\UIStreaming
+2021-09-28T11:29:46.217Z - debug:  [03212] TFVC Creating Tfvc object with localPath='undefined'
+2021-09-28T11:29:46.218Z - debug:  [03212] Using TFS proxy: 
+2021-09-28T11:29:46.218Z - debug:  [03212] TFVC Retrieved from settings; localPath='C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe'
+2021-09-28T11:29:46.219Z - debug:  [03212] TFVC Repository created with repositoryRootFolder='c:\TFS\FPAP\POC\UIStreaming\UIStreaming'
+2021-09-28T11:29:46.221Z - debug:  [03212] TFVC Repository.CheckVersion
+2021-09-28T11:29:46.222Z - debug:  [03212] TFVC: tf add -noprompt -?
+2021-09-28T11:29:46.234Z - debug:  [03212] TFVC: spawned new process (duration: 11ms)
+2021-09-28T11:29:46.682Z - debug:  [03212] TFVC: spawned new process (duration: 5ms)
+2021-09-28T11:29:48.477Z - debug:  [03212] TFVC: add exit code: 0 (duration: 2255ms)
+2021-09-28T11:29:48.478Z - debug:  [03212] TFVC Minimum required version: 14.102.0
+2021-09-28T11:29:48.478Z - debug:  [03212] TFVC (TF.exe, TF.cmd) version: 15.129.31023.4
+2021-09-28T11:29:48.479Z - debug:  [03212] TFVC Repository.FindWorkspace with localPath='c:\TFS\FPAP\POC\UIStreaming\UIStreaming'
+2021-09-28T11:29:48.479Z - debug:  [03212] TFVC: tf workfold -noprompt c:\TFS\FPAP\POC\UIStreaming\UIStreaming
+2021-09-28T11:29:48.483Z - debug:  [03212] TFVC: spawned new process (duration: 3ms)
+2021-09-28T11:29:48.966Z - debug:  [03212] TFVC: workfold exit code: 100 (duration: 487ms)
+2021-09-28T11:29:48.967Z - debug:  [03212] TFVC errors (via stderr): There is no working folder mapping for c:\TFS\FPAP\POC\UIStreaming\UIStreaming.
+
+2021-09-28T11:29:48.968Z - error:  [03212] Execution of the TFVC command line failed unexpectedly.
+2021-09-28T11:30:06.276Z - debug:  [03212] Reinitializing due to onDidChangeConfiguration
+2021-09-28T11:31:35.433Z - debug:  [03212] Reinitializing due to onDidChangeConfiguration
+2021-09-28T11:44:57.446Z - debug:  [03212] Reinitializing due to onDidChangeConfiguration
+2021-09-28T11:56:55.753Z - info:   [18456] *** FOLDER: c:\TFS\FPAP\POC\UIStreaming ***
+2021-09-28T11:56:55.754Z - info:   [18456] AzureReposVSCode/1.2007.15 (VSCode 1.60.2; Windows_NT 10.0.19043; Node 14.16.0)
+2021-09-28T11:56:55.754Z - debug:  [18456] Looking for an External Context at c:\TFS\FPAP\POC\UIStreaming
+2021-09-28T11:56:55.754Z - debug:  [18456] No External Context at c:\TFS\FPAP\POC\UIStreaming
+2021-09-28T11:56:55.765Z - debug:  [18456] Looking for TFVC repository at c:\TFS\FPAP\POC\UIStreaming
+2021-09-28T11:56:55.766Z - debug:  [18456] TFVC Creating Tfvc object with localPath='undefined'
+2021-09-28T11:56:55.767Z - debug:  [18456] Using TFS proxy: 
+2021-09-28T11:56:55.767Z - debug:  [18456] TFVC Retrieved from settings; localPath='C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe'
+2021-09-28T11:56:55.767Z - debug:  [18456] TFVC Repository created with repositoryRootFolder='c:\TFS\FPAP\POC\UIStreaming'
+2021-09-28T11:56:55.768Z - debug:  [18456] TFVC Repository.CheckVersion
+2021-09-28T11:56:55.769Z - debug:  [18456] TFVC: tf add -noprompt -?
+2021-09-28T11:56:55.772Z - debug:  [18456] TFVC: spawned new process (duration: 3ms)
+2021-09-28T11:56:55.777Z - debug:  [18456] TFVC: spawned new process (duration: 4ms)
+2021-09-28T11:56:58.593Z - debug:  [18456] TFVC: add exit code: 0 (duration: 2824ms)
+2021-09-28T11:56:58.594Z - debug:  [18456] TFVC Minimum required version: 14.102.0
+2021-09-28T11:56:58.594Z - debug:  [18456] TFVC (TF.exe, TF.cmd) version: 15.129.31023.4
+2021-09-28T11:56:58.594Z - debug:  [18456] TFVC Repository.FindWorkspace with localPath='c:\TFS\FPAP\POC\UIStreaming'
+2021-09-28T11:56:58.595Z - debug:  [18456] TFVC: tf workfold -noprompt c:\TFS\FPAP\POC\UIStreaming
+2021-09-28T11:56:58.599Z - debug:  [18456] TFVC: spawned new process (duration: 4ms)
+2021-09-28T11:56:59.164Z - debug:  [18456] TFVC: workfold exit code: 100 (duration: 569ms)
+2021-09-28T11:56:59.165Z - debug:  [18456] TFVC errors (via stderr): There is no working folder mapping for c:\TFS\FPAP\POC\UIStreaming.
+
+2021-09-28T11:56:59.166Z - error:  [18456] Execution of the TFVC command line failed unexpectedly.

@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+package FPAPManager;
+
+// The greeting service definition.
+service FPAPManager {
+  rpc GetWebFlights (FpapaManagerRequest) returns (stream FlightListData);
+}
+
+message FpapaManagerRequest {
+
+}
+
+message FlightListData {
+	repeated Flight Flights = 1;
+}
+
+message Flight {
+  string Id = 1;
+  string FlightIdentifier = 2;
+  string FlightNumber = 3;
+  string Airline = 4;
+  string AirlineOperator = 5;
+  google.protobuf.Timestamp FlightOriginDate = 6;
+  Aircraft Aircraft = 7;
+  string DepartureAirportIcao = 8;
+  string DestinationAirportIcao = 9;
+  google.protobuf.Timestamp UtcScheduledTimeDeparture = 10;
+  google.protobuf.Timestamp UtcScheduledTimeOfArrival = 11;
+  bool Etops = 12;
+  bool DecompressionCheck = 13;
+  string FlightPlanId = 14;
+}
+
+message Aircraft {
+  string AircraftType = 1;
+  string Registration = 2;
+  Equipment Equipment = 3;
+}
+
+message Equipment {
+  repeated string Item10a = 1;
+  repeated string Item18 = 2;
+}
